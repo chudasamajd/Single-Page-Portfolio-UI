@@ -1,0 +1,890 @@
+<html>
+    <head>
+	<title>DAFT</title>
+	<link rel="icon" href="img/logo11.png"></link>
+    <style>
+    @-webkit-keyframes daft{
+            0%{
+                left:0;
+            }
+            25%{
+                left:-100%;
+            }
+            50%{
+                left:-200%;
+            }
+        
+            75%{
+                left:-100%;
+            }
+            100%{
+                left:0%;
+            }
+           
+            
+        }   
+        body{
+            margin: 0;
+            background-color: #2b2a30;
+        }
+        #container{
+            
+           height:100%;
+            width: 100%;
+           z-index: -1;
+           
+         
+           
+        }
+        #demo{
+            position: absolute;
+            top:48.9%;
+            left:9.9%;
+            overflow: hidden;
+            height: 12.5%;
+            width: 15.2%;
+            border-radius: 2.5px;    
+        }
+        
+        #demo div img{
+            width: 20%;
+            float: left;
+        }
+        #demo div{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            
+            -webkit-animation:daft 30s infinite;
+        }    
+       
+        #box{
+            position: absolute;
+            height: 90%;
+            width: 90%;
+            box-shadow: 0 0px 15px #2b2a30;
+            bottom: 0px;
+            left: 5%;
+            border-radius: 20px 20px 0px 0px;
+            background: linear-gradient(transparent 0%,transparent 60%,#2b2a30 100%);
+            
+        }
+       
+        #menu{
+            position:absolute;
+            width: 100%;
+        }
+        #menu #option2 ul{
+            list-style: none;
+            position: absolute;
+            right: 15%;
+            top:5;
+        }
+        #menu #option2 ul li{
+            display: inline;
+            font-family: arial;
+            font-size: 14px;
+            color:white;
+            margin-right: 50px;
+            letter-spacing: 5px;
+        }
+        
+        #menu #option1 ul{
+            list-style: none;
+            position: absolute;
+            left: 15%;
+            top:5;
+        }
+        #menu #option1 ul li{
+            display: inline;
+            font-family: arial;
+            color:white;
+            font-size: 14px;
+            letter-spacing: 5px;
+            margin-left: 50px;
+        }
+        #menu #option1{
+            float: left;
+        }
+        #logo{
+            position: absolute;
+            float: left;
+            width: 100px;
+            height: 100px;
+            left:45%;
+            top:10px;
+            
+        }
+        #menu #option2{
+            float: right;
+        }
+         
+        
+        
+        /* HOME DIVISION START */
+        
+        #home
+        {
+            height: 100%;
+            width: 100%;
+            background-color: #2b2a30;
+        }
+        #con1{
+            width: 90%;
+            height: 50px;
+            margin-left: 5%;
+            padding-top: 5%;
+            
+        }
+        #wh{
+            margin-left: 43%;
+            float: left;
+            font-family: arial;
+            font-size: 15px;
+            color:white;
+            margin-right: 5px;
+        }
+        #he{
+            float: left;
+            height: 15px;
+            width: 20px;
+        }
+        #do{
+            float: left;
+            font-family: arial;
+            font-size: 15px;
+            color:white;
+            margin-left: 5px;
+        }
+        #con2{
+            height: auto;
+            width: 90%;
+            color: #c1c1c1;
+            margin-left: 5%;
+        }
+        #homemain{
+            height: 100%;
+            width: 90%;
+            background-color: #2b2a30;
+            margin-left: 5%;
+            
+        }
+        #tit2{
+            font-family: arial black;
+            font-size: 40px;
+            text-align: center;
+        }
+        #readmore{
+            background-color: #fb5255;
+            height: 20px;
+            width: 90px;
+            padding: 10px;
+            color: white;
+            font-family: arial;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 45%;
+            cursor: pointer;
+        }
+        
+        #circle{
+            height: 130px;
+            width: 130px;
+            border-radius: 150px;
+            background-color: #c1c1c1;
+           position: relative;
+            bottom: 65px;
+            left: 44%;
+            
+        }
+        
+        /* HOME DIVISION END */
+        
+        
+        /* SERVICES DIVISION START */
+        
+        #services
+        {
+            height: 100%;
+            width: 100%;
+           
+        }
+        #servicesmain{
+            height: 100%;
+            width: 90%;
+            background-color: #c1c1c1;
+            margin-left: 5%;
+            
+        }
+        #box1{
+            margin: auto;
+            height: 350px;
+            width: 250px;
+            background-color: #2b2a30;
+            float: left;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        #web{
+            color:#c1c1c1;
+            font-family: arial;
+            font-size: 20px;
+            background-color: #2b2a30;
+            text-align: center;
+            padding: 10px;
+           border-bottom:2px solid #c1c1c1;
+            margin-bottom: 5px;
+        }
+        #webi{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: #c1c1c1;
+             border: 2px solid #c1c1c1;
+            margin-top: 10px;
+        }
+        #webtext{
+            text-align: justify;
+            color: white;
+            font-family: arial;
+            font-size: 14px;
+            padding: 20px;
+            background-color: #2b2a30;
+        }
+        #webreadmore{
+            background-color: #fb5255;
+            height: 20px;
+            width: 90px;
+            padding: 10px;
+            color: white;
+            font-family: arial;
+            font-size: 14px;
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+        }
+        #servicescon{
+            margin-left:10%;
+            height: 100%;
+           
+        }
+        #servicestitle{
+            color:#2b2a30;
+            font-family: arial black;
+            font-size: 40px;
+            padding-top: 70px;
+            text-align: center;
+            width: 100%;
+            margin-left: -6%;
+            text-decoration: overline;    
+            
+        }
+        #hr1{
+            margin-top: -2px;
+            margin-left: 33.8%;
+           width: 223px;
+        }
+        #circle2{
+            height: 130px;
+            width: 130px;
+            border-radius: 150px;
+            background-color: #2b2a30;
+           position: relative;
+            bottom: 65px;
+            left: 44%;
+            
+        }
+        /* SERVICES DIVISION END */
+        
+        
+        
+        /* PROJECT DIVISION START */
+        
+        #work
+        {
+            height: 120%;
+            width: 100%;
+           
+        }
+        #workmain{
+            height: 100%;
+            width: 90%;
+            background-color: #2b2a30;
+            margin-left: 5%;
+           
+        }
+        #worktit{
+            height: 50px;
+            width: 100%;
+           
+        }
+         #worktitle{
+            color:#c1c1c1;
+            font-family: arial black;
+            font-size: 35px;
+            padding-top: 70px;
+            text-align: center;
+            width: 100%; 
+            text-decoration: overline;     
+        }
+        #hr2{
+            margin-top: 0px;  
+            width: 205px;
+        }
+        #gallery{
+           
+            width: 100%;
+            background-color: red;
+        }
+        #g1{
+            width: 400px;
+            height: 200px;
+            margin-left: 200px;
+            margin-top: 100px;
+            background-color: aqua;
+            float: left;
+            overflow: hidden;
+            
+        }
+         #g2{
+            width: 400px;
+            height: 200px;
+            margin-left: 20px;
+             margin-top: 100px;
+            background-color: aqua;
+             float: left;
+              overflow: hidden;
+        }
+        #g3{
+            width: 400px;
+            height: 200px;
+            margin-left: 200px;
+            margin-top: 20px;
+            background-color: aqua;
+            float: left;
+             overflow: hidden;
+        }
+         #g4{
+            width: 400px;
+            height: 200px;
+            margin-left: 20px;
+             margin-top: 20px;
+            background-color: aqua;
+             float: left;
+              overflow: hidden;
+        }
+        
+        
+        
+        #g1 img{
+           transition: transform 1s;
+        }
+        #g1:hover img{
+            transform: scale(1.5) rotate(10deg);
+        }
+        #matter{
+           
+            height: 200px;
+            width: 400px;
+            background-color: rgba(0,0,0,0.3);
+            
+            transition: all 1s;
+            position: relative;
+        }
+        #g1:hover #matter{
+            transform: translateY(-400px);
+        }
+        
+        
+        #g2 img{
+           transition: transform 1s;
+        }
+        #g2:hover img{
+            transform: scale(1.5) rotate(10deg);
+        }
+        #matter{
+           
+            height: 200px;
+            width: 400px;
+            background-color: rgba(0,0,0,0.3);
+            
+            transition: all 1s;
+            position: relative;
+        }
+        #g2:hover #matter{
+            transform: translateY(-400px);
+        }
+        
+         #g3 img{
+           transition: transform 1s;
+        }
+        #g3:hover img{
+            transform: scale(1.5) rotate(10deg);
+        }
+        #matter{
+           
+            height: 200px;
+            width: 400px;
+            background-color: rgba(0,0,0,0.3);
+            
+            transition: all 1s;
+            position: relative;
+        }
+        #g3:hover #matter{
+            transform: translateY(-400px);
+        }
+        
+        
+         #g4 img{
+           transition: transform 1s;
+        }
+        #g4:hover img{
+            transform: scale(1.5) rotate(10deg);
+        }
+        #matter{
+           
+            height: 200px;
+            width: 400px;
+            background-color: rgba(0,0,0,0.3);
+            
+            transition: all 1s;
+            position: relative;
+        }
+        #g4:hover #matter{
+            transform: translateY(-400px);
+        }
+        #circle3{
+            height: 130px;
+            width: 130px;
+            border-radius: 150px;
+            background-color: #c1c1c1;
+           position: relative;
+            bottom: 65px;
+            left: 44%;
+            
+        }
+        /* PROJECT DIVISION END */
+        
+        
+        #contact
+        {
+            height: auto;
+            width: 100%;
+           
+        }
+        #contactmain{
+            height: auto;
+            width: 90%;
+            background-color: #c1c1c1;
+            margin-left: 5%;
+            
+        }
+        #contacttit{
+            height: 50px;
+            width: 100%;
+           
+        }
+         #contacttitle{
+            color:#2b2a30;
+            font-family: arial black;
+            font-size: 35px;
+            padding-top: 70px;
+            text-align: center;
+            width: 100%; 
+            text-decoration: overline;     
+        }
+        #hr3{
+            margin-top: 0px;  
+            width: 255px;
+        }
+        
+        /* CONTACT US START*/
+        #form{
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+        input[type=text],[type=email]{
+            height: 35px;
+            width: 300px;
+            outline: none;
+            border-radius: 10px;
+            border:none;
+            padding-left: 10px;
+            font-family: arial;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            background-color: #4a474e;
+        }
+        textarea{
+            resize: none;
+            width: 300px;
+            height: 82px;
+            outline: none;
+            border-radius: 10px;
+            border:none;
+            padding-left: 10px;
+            font-family: arial;
+            padding-top: 10px;
+            background-color: #4a474e;
+        }
+        input[type=button]{
+            background-color: #fb5255;
+            height: 40px;
+            width: 90px;
+            padding: 10px;
+            color: white;
+            font-family: arial;
+            font-size: 14px;
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+        }
+        
+        #footer{
+            height: 140px;
+            width: 100%;           
+            margin-top: 100px;
+        }
+        /* CONTACT US END */
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        #he{
+            -webkit-animation:be 2s infinite;
+        }
+        @-webkit-keyframes be{
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.5);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        
+    </style>
+        
+        
+    <script src="jquery-1.10.2.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $("#img1").hover(function(){
+              $("#img1").attr('src','gallery1.jpg'); 
+           });
+            $("#img1").mouseleave(function(){
+              $("#img1").attr('src','gallery11.jpg'); 
+           });
+            
+        $("#img2").hover(function(){
+              $("#img2").attr('src','gallery2.jpg'); 
+           });
+            $("#img2").mouseleave(function(){
+              $("#img2").attr('src','gallery21.jpg'); 
+           });
+            
+        $("#img3").hover(function(){
+              $("#img3").attr('src','gallery3.jpg'); 
+           });
+            $("#img3").mouseleave(function(){
+              $("#img3").attr('src','gallery31.jpg'); 
+           });
+            
+
+        $("#img4").hover(function(){
+              $("#img4").attr('src','gallery4.jpg'); 
+           });
+            $("#img4").mouseleave(function(){
+              $("#img4").attr('src','gallery41.jpg'); 
+           });    
+        
+        $("#top1").hover(function()
+            {
+                $("#top1").css('textDecoration','line-through');
+        });
+         $("#top1").mouseleave(function()
+            {
+                $("#top1").css('textDecoration','none');
+        });
+            
+        $("#top2").hover(function()
+            {
+                $("#top2").css('textDecoration','line-through');
+        });
+         $("#top2").mouseleave(function()
+            {
+                $("#top2").css('textDecoration','none');
+        });
+            
+        $("#top3").hover(function()
+            {
+                $("#top3").css('textDecoration','line-through');
+        });
+         $("#top3").mouseleave(function()
+            {
+                $("#top3").css('textDecoration','none');
+        });
+            
+         $("#top4").hover(function()
+            {
+                $("#top4").css('textDecoration','line-through');
+        });
+         $("#top4").mouseleave(function()
+            {
+                $("#top4").css('textDecoration','none');
+        });   
+            
+            
+        $("#top5").hover(function()
+            {
+                $("#top5").css('textDecoration','line-through');
+        });
+         $("#top5").mouseleave(function()
+            {
+                $("#top5").css('textDecoration','none');
+        });
+            
+          $("#an1").click(function()
+                   {
+                $off=$("#home").offset().top;
+                $('body').animate({scrollTop:$off},1000);
+            });  
+        
+            $("#an2").click(function()
+                   {
+                $off=$("#services").offset().top;
+                $('body').animate({scrollTop:$off},1000);
+            });
+            $("#an3").click(function()
+                   {
+                $off=$("#work").offset().top;
+                $('body').animate({scrollTop:$off},1000);
+            });
+            $("#an4").click(function()
+                   {
+                $off=$("#contact").offset().top;
+                $('body').animate({scrollTop:$off},1000);
+            });
+            
+        });
+    </script>
+        
+    </head>
+    <body>
+        <!--Menu Start-->
+        <div id="menu">
+            <div id="option1">
+                <ul>
+                    <li><a href="#home" id="an1">HOME</a></li>
+                    <li><a href="#services" id="an2">SERVICES</a></li>
+                </ul>
+            </div>
+            <div id="logo">
+                <img src="img/logo11.png" width="100%" height="100%"/>
+            </div>
+            <div id="option2">
+                <ul>
+                    <li><a href="#work" id="an3">PROJECTS</a></li>
+                    <li><a href="#contact" id="an4">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Menu End-->
+        
+        <!--Slider Start-->
+        <div id="container">
+            <img src="img/computer-823613_1920.jpg" height="100%" width="100%"/>
+            <div id="demo">
+                <div>
+                    <img src="img/i1.jpg" height="100%" width="100%"/>
+                    <img src="img/i2.jpg" height="100%" width="100%"/>
+                    <img src="img/i3.jpg" height="100%" width="100%"/> 
+                </div>
+            </div>
+        </div>
+        <!--Slider End-->
+        
+        <div id="box">
+        </div>
+        
+       
+        <!-- HOME DIVISION START -->
+        
+        <div id="home">
+            <div id="homemain">
+                <div id="con1">
+                    <div id="tit">
+                        <div id="wh">WHAT WE</div>
+                        <div id="he"><img src="heart.png" height="100%" width="100%"/></div>
+                        <div id="do">DOING</div>
+                    </div>
+                </div>
+                <div id="con2">
+                    <div id="tit2">
+                        <div id="top1">DESIGN</div>
+                        <div id="top2">PRODUCTS</div>
+                        <div id="top3">DIGITAL</div>
+                        <div id="top4">UX</div>
+                        <div id="top5">PHOTOGRAPHY</div>
+                    </div>
+                </div>
+                <div id="readmore">
+                    READ MORE
+                </div>
+                
+            </div>
+            <div id="circle">
+            </div>
+        </div>
+        
+        <!-- HOME DIVISION END -->
+        
+        <!-- SERVICES DIVISION START -->
+        
+        <div id="services">
+            
+            <div id="servicesmain">
+               
+                <div id="servicescon">
+                    
+                    <div id="servicestitle">SERVICES</div>
+                    
+                    <hr id="hr1" size="4px" width="200px" color="#2b2a30"/>
+                    
+                    <div id="box1">
+                        <div id="web">
+                                WEB DESIGNING
+                        </div>
+                        <div id="webi">
+                            <img src="dw.png" height="100%" width="100%"/>
+                        </div>
+                        <div id="webtext">
+                            We teach, lecture, give workshops and love sharing our knowledge, and we will literally go anywhere! We design cretive websites as well as web applications.
+                        </div>
+                        <div id="webreadmore">
+                            READ MORE
+                        </div>
+                    </div>
+                    <div id="box1">
+                        <div id="web">
+                                PHOTO EDITING
+                        </div>
+                        <div id="webi">
+                            <img src="ps.png" height="100%" width="100%"/>
+                        </div>
+                        <div id="webtext">
+                            We teach, lecture, give workshops and love sharing our knowledge, and we will literally go anywhere! We design cretive photo, logo, card as well as banners.
+                        </div>
+                        <div id="webreadmore">
+                            READ MORE
+                        </div>
+                    </div>
+                    <div id="box1">
+                        <div id="web">
+                                VIDEO EDITING
+                        </div>
+                        <div id="webi">
+                            <img src="ae.png" height="100%" width="100%"/>
+                        </div>
+                        <div id="webtext">
+                            We teach, lecture, give workshops and love sharing our knowledge, and we will literally go anywhere! We design cretive animation as well as motion graphics.
+                        </div>
+                        <div id="webreadmore">
+                            READ MORE
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="circle2">
+            </div>
+        </div>
+        
+        <!-- SERVICES DIVISION END -->
+        
+        
+        <!-- PROJECT DIVISION START -->
+        
+        <div id="work">
+            <div id="workmain">
+                <div id="worktit">
+                    <div id="worktitle">PROJECTS</div>
+                    
+                    <hr id="hr2" size="3px" width="200px" color="#c1c1c1"/>
+                    
+                </div>
+                <div id="gallery">
+                    <div id="g1">
+                        <img src="gallery11.jpg" id="img1" height="100%" width="100%"/>
+                        <div id="matter">
+                        </div>
+                    </div>
+                    <div id="g2">
+                        <img src="gallery21.jpg" id="img2" height="100%" width="100%"/>
+                        <div id="matter">
+                        </div>
+                    </div>
+                    <div id="g3">
+                        <img src="gallery31.jpg" id="img3" height="100%" width="100%"/>
+                        <div id="matter">
+                        </div>
+                    </div>
+                    <div id="g4">
+                        <img src="gallery41.jpg" id="img4" height="100%" width="100%"/>           
+                        <div id="matter">
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                <div id="circle3">
+            </div>
+            </div>
+        
+        <!-- PROJECT DIVISION END -->
+        
+        
+        <!-- CONTACT US DIVISION START -->
+        
+            <div id="contact">
+                <div id="contactmain">
+                     <div id="contacttit">
+                        <div id="contacttitle">CONTACT US</div>
+                    
+                         <hr id="hr3" size="3px" width="200px" color="#2b2a30"/>
+                    
+                    </div>
+                    <div id="form">
+                        <table >
+                            <tr>
+                                <td><input type="text" placeholder="NAME"/></td>
+                                <td rowspan="2"><textarea cols="30" rows="5" placeholder="MESSAGE"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" placeholder="EMAIL"/></td>
+                            </tr>
+                            <tr align="center">
+                                <td colspan="2"><input type="button" value="SUBMIT"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div id="footer">
+                    <img src="img_footer2.png" height="100%" width="100%"/>
+                </div>
+                    
+                </div>
+                
+            </div>
+        
+        <!-- CONTACT US DIVISION END -->
+    </body>
+</html>
